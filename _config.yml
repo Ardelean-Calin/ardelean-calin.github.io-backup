@@ -1,0 +1,31 @@
+# top level stuff you probably don't need to touch
+highlighter: pygments
+markdown: rdiscount
+rdiscount:
+  extensions: [smart]
+#permalink: "/:title.html"
+permalink: /blog/:title.html
+#permalink: date
+paginate: 5
+gems: [jekyll-paginate]
+safe: true
+
+
+# edit here to achieve your personal greatness
+url: http://ardelean-calin.github.io/
+baseurl: ""
+title: Ardelean Calin's Build Log
+author: Ardelean Calin
+description: Place where I post my projects.
+avatar: profile.png
+email: acp.calin@gmail.com
+github: Ardelean-Calin # username
+timezone: Europe/Bucharest
+#stackoverflow: username   #e.g: users/2735833/proton1h1
+#Comment out if you don't want disqus
+disqus: ardelean
+#google_analytics: UA-72227815-1
+
+
+# needed for travis-ci build
+exclude: [vendor]
