@@ -3,7 +3,7 @@ layout: post
 title: 'Test Post'
 categories: electronics embedded
 tags: pic12f683 variable voltage rotary encoder
-published: true
+published: false
 ---
 
 ### __Test Title__
